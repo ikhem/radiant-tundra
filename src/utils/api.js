@@ -25,10 +25,10 @@ function getStarCount(repos){
 }
 
 function calculateScore(profile, repos){
-  let folloers = profile.followers;
+  let followers = profile.followers;
   let totalStars = getStarCount(repos);
 
-  return(follwers * 3) + totalStars;
+  return(followers * 3) + totalStars;
 } 
 
 function handleError(error){
